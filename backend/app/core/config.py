@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
     # SCIM Provisioning
-    SCIM_BEARER_TOKEN: str = "default_scim_token_change_me"
+    SCIM_BEARER_TOKEN: str
 
     # Stripe (optional — leave blank to disable billing)
     STRIPE_SECRET_KEY: str = ""
